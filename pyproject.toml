@@ -1,0 +1,20 @@
+[project]
+name = "pysvc"
+version = "0.1.0"
+description = "Simply python web service"
+readme = "README.md"
+authors = [
+    { name = "Shiva Muthukumar", email = "ms_profile_dev@example.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard]>=0.115.12",
+    "pydantic>=2.11.3",
+]
+
+[project.scripts]
+app = "pysvc.entrypoints.main:run"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
