@@ -7,7 +7,7 @@ wheels/
 *.egg-info
 
 # Project
-.idea
+.idea/
 
 # Virtual environments
 .venv
