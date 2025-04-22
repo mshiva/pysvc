@@ -8,6 +8,7 @@ wheels/
 
 # Project
 .idea/
+.vscode/
 
 # Virtual environments
 .venv
